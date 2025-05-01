@@ -30,12 +30,12 @@ Installation steps:
 
 
 ~The other files were programs used to create this project. Here is a summary of each:
--gamebuddy.html is the actual delivered project. It is an html file that when opened will show the finished results of Game Buddy.
--games.json holds all the game data for this project in json format. It contains  5,596 games total. Under each game is data about: its URL, title, release date, rating, on sale status, original price, sale price (if any).
--Scrpper2 is a python program we used to scrape the data contained in the games,json file from the Steam store. It is called scrpper2 because it can’t be a program without some typos, and it was not our first attempt at a scraper program. 
--sitemap.py is also a python program that was used to crawl through the steam store to collect the URLs for its site. The URLs were saved in the following file, steamsitemap.xml
--steamsitemap.xml is the sitemap that contains all the URLs from which we scraped the game data from.
--urls.json is a json file storing all the URLs from the sitemap. It wasn’t needed in the end but was part of the process so we included it.
+- - -gamebuddy.html is the actual delivered project. It is an html file that when opened will show the finished results of Game Buddy.
+- - -games.json holds all the game data for this project in json format. It contains  5,596 games total. Under each game is data about: its URL, title, release date, rating, on sale status, original price, sale price (if any).
+- - -Scrpper2 is a python program we used to scrape the data contained in the games,json file from the Steam store. It is called scrpper2 because it can’t be a program without some typos, and it was not our first attempt at a scraper program. 
+- - -sitemap.py is also a python program that was used to crawl through the steam store to collect the URLs for its site. The URLs were saved in the following file, steamsitemap.xml
+- - -steamsitemap.xml is the sitemap that contains all the URLs from which we scraped the game data from.
+- - -urls.json is a json file storing all the URLs from the sitemap. It wasn’t needed in the end but was part of the process so we included it.
 
 We hope you enjoy Game Buddy as much as we enjoyed making it!
 Sincerely,
