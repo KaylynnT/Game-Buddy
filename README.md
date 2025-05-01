@@ -8,13 +8,13 @@ Link to the Game Buddy project: Game-Buddy Github
 Python
 
 ~Required libraries:
-Requests
-Beautifulsoup
-Time
-Json
-Urljoin
-urlparse
-xml.etree
+- -Requests
+- -Beautifulsoup
+- -Time
+- -Json
+- -Urljoin
+- -urlparse
+- -xml.etree
 
 ~CAUTION: games.json is a large file. Opening it may slow your computer while it is loading in, or crash your web browser. 
 
